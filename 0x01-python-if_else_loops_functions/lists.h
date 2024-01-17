@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-listint_t *insert_node(listint_t **head, int number);
 /**
  * struct listint_s - singly linked list
  * @n: integer
