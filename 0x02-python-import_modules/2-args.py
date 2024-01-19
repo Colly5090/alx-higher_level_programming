@@ -12,4 +12,4 @@ if __name__ == "__main__":
         print(f"1 argument:")
         print(f"1: {sys.argv[1]}")
     else:
-        print("0 arguments.)
+        print("0 arguments.")
