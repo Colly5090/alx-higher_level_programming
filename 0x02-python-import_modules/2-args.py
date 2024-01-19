@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
 
-    total_args = len(sys.argv[1:]) #couting total number of args excluding script name from 1
+    total_args = len(sys.argv[1:])
 
     if total_args > 1:
         print(f"{total_args} arguments:")
