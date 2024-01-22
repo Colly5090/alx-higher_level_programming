@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * is_palindrome -  A function to check palindrome
  * @head: the head pointer in the list
@@ -7,7 +7,7 @@
 int is_palindrome(listint_t **head);
 int is_palindrome(listint_t **head)
 {
-	listint_t *fast = *head, slow = *head;
+	listint_t *fast = *head, *slow = *head;
 	int is_palindrome = 1;
 	listint_t *stack = NULL, *temp;
 
