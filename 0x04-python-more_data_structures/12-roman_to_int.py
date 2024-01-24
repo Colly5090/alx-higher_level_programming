@@ -7,11 +7,12 @@ def roman_to_int(roman_string):
     final_integers = 0
     roman_value = 0
 
-    for char in num:
+    for char in reversed(num):
         value = num.get(char, 0)
         if value < roman_value:
             final_integers -= value
         else:
             final_integers += value
         roman_value = value
+
     return final_integers
