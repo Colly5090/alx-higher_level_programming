@@ -4,6 +4,6 @@ def complex_delete(a_dictionary, value):
 
     for dict_value in list_keys:
         if value == a_dictionary.get(dict_value):
-            del a_dictionary[value_dic]
+            del a_dictionary[dict_value]
 
     return a_dictionary
