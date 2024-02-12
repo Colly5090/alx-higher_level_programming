@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ A Module to define a square, its shape and properties """
 
+
 class Square:
     """
     A class to define a square
@@ -8,7 +9,7 @@ class Square:
 
     Attributes:
         A private size as functionality of the square
-    
+
     Methods:
         None currently defined
     """
