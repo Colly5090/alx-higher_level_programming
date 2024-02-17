@@ -7,7 +7,7 @@ class Rectangle:
     A class the define rectangle, its shape and properties
 
     Attributes:
-        None currently defined 
+        None currently defined
     Methods:
         None currently defined
     """
