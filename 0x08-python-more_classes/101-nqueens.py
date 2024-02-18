@@ -40,7 +40,7 @@ if __name__ == "__main__":
                     if self.board[x][y] == 1:
                         return False
             return True
-        
+
         def solve(self, colum=0, solution=[]):
             if colum == self.N:
                 self.solutions.append(solution.copy())
@@ -54,7 +54,7 @@ if __name__ == "__main__":
                     solution.pop()
                     self.board[i][colum] = 0
             return result
-    
+
     solver = NQueen(N)
     solver.solve()
     solver.solution()
