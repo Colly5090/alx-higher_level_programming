@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 from 0-add_integer import add_integer
 add_integer(2, 2)
+=======
+>>> add_integer = __import__("0-add_integer").add_integer
+>>> add_integer(2, 2)
+>>>>>>> 5b498757e560f992f2e4e23313bb0106d7b747ce
 4
 add_integer(100, -2)
 98
