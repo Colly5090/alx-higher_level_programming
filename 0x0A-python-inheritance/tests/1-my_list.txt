@@ -1,0 +1,22 @@
+A Subclass of list with method to print list in sorted order
+>>> MyList = __import__("1-my_list").MyList
+
+Test the method can handle empty list without error
+>>> MyList().print_sorted()
+[]
+
+Test a list of integers in random order
+>>> MyList([1, 4, 2]).print_sorted()
+[1, 2, 4]
+
+Test a list of integers already in ascending order
+>>> MyList([1, 2, 4]).print_sorted()
+[1, 2, 4]
+
+Test a list in descending order 
+>>> MyList([4, 2, 1]).print_sorted()
+[1, 2, 4]
+
+Test a list of duplicate integers
+>>> MyList([4, 2, 2]).print_sorted()
+[2, 2, 4]
