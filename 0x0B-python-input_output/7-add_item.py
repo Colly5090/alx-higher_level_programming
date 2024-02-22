@@ -14,11 +14,13 @@ def save_to_json_file(my_obj, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         json.dump(my_obj, file)
 
+
 def load_from_json_file(filename):
     """ A Function that loads an object from a JSON file """
     with open(filename, 'r', encoding='utf-8') as file:
         return json.load(file)
-    
+
+
 args = sys.argv[1:]
 filename = "add_item.json"
 
