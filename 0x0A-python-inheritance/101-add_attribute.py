@@ -2,10 +2,9 @@
 """ A module that add attributes """
 
 
-def add_att(object, attr_name, value):
+def add_attribute(object, attr_name, value):
     """
-    A function that adds an attribute to an object
-    if not raise an exception
+    A Function that adds attribute to an object
     """
     if hasattr(object, __dict__):
         setattr(object, attr_name, value)
