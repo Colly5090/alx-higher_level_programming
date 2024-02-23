@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" A module that add attributes """
+
 
 def add_att(object, attr_name, value):
     """
