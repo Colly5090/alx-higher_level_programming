@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """ A Module that defines Pascal's Triangle """
 
 
