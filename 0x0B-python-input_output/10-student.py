@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/usr/python3
 """ A Module that defines a class of student """
 
 
@@ -12,6 +12,8 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attrs=None):
+        if attrs is not None and all(isinstance(attr, str) for attr in attrs):
+            return
         """ Return the dictionary representation of this Student instance """
         return self.__dict__
