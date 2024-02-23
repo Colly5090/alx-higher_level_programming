@@ -1,8 +1,12 @@
 #!/usr/bin/python3
+""" Module for add_inter """
+
 
 def add_integer(a, b=98):
-    if not isinstance(a, (int, float)):
+    """ Function that add two integers """
+    if type(a) not in (int, float):
         raise TypeError("a must be an integer")
-    if not isinstance(b, (int, float)):
+    elif type(b) not in (int, float):
         raise TypeError("b must be an integer")
-    return int(a) + int(b)
+    else:
+        return int(a) + int(b)
