@@ -2,7 +2,7 @@
 """ A Module that defines an empty class """
 
 
-class BaseGeometry(object):
+class BaseGeometry:
     """ An Empty class defined with no attributes and methods """
 
     def area(self):
@@ -12,6 +12,6 @@ class BaseGeometry(object):
     def integer_validator(self, name, value):
         """ Validates that the 'value' is an integer greater than 0 """
         if type(value) is not int:
-            raise TypeError(f"{name} must be an integer")
+            raise TypeError("{:s} must be an integer".format(name))
         if value <= 0:
-            raise ValueError(f"{name} must be greater than 0")
+            raise ValueError("{:s} must be greater than 0".format(name))
