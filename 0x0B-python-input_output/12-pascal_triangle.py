@@ -3,6 +3,7 @@
 
 
 def pascal_triangle(n):
+    """ A function that defines Pascal's Triangle """
     if n <= 0:
         return []
     triangle = []
