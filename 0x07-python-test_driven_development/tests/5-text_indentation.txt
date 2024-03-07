@@ -11,7 +11,11 @@ Hello, World.
 >>> text('What is your name? My name is Julius.')
 What is your name?
 <BLANKLINE>
-<BLANKLINE>
 My name is Julius.
 <BLANKLINE>
 <BLANKLINE>
+
+>>> text(2.)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string

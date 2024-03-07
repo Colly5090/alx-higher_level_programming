@@ -6,11 +6,11 @@ def text_indentation(text):
     """ A Function that prints newline after encountering . ? /"""
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    
+
     new_str = text
     for delimeter in ".?:":
-        new_str = new_str.replace(delimeter, delimeter + "\n\n\n")
-    
+        new_str = new_str.replace(delimeter, delimeter + "\n\n")
+
     lines = new_str.split('\n')
-    for line in lines[:-1]:
+    for line in lines:
         print(line.strip())
