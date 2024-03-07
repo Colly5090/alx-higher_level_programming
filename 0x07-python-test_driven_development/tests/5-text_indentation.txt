@@ -1,0 +1,17 @@
+Import modules:
+>>> text = __import__('5-text_indentation').text_indentation
+>>>
+
+Run testcases:
+>>> text('Hello, World.')
+Hello, World.
+<BLANKLINE>
+<BLANKLINE>
+
+>>> text('What is your name? My name is Julius.')
+What is your name?
+<BLANKLINE>
+<BLANKLINE>
+My name is Julius.
+<BLANKLINE>
+<BLANKLINE>
