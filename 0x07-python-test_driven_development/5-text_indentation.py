@@ -13,4 +13,4 @@ def text_indentation(text):
 
     lines = new_str.split('\n')
     for line in lines:
-        print(line.strip('\n'))
+        print(line.strip())
