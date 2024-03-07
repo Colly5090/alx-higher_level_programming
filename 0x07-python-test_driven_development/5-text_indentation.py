@@ -9,8 +9,8 @@ def text_indentation(text):
 
     new_str = text
     for delimeter in ".?:":
-        new_str = new_str.replace(delimeter, delimeter + "\n\n")
+        new_str = new_str.replace(delimeter, delimeter + "\n")
 
     lines = new_str.split('\n')
     for line in lines:
-        print(line.strip())
+        print(line.strip('\n'))
